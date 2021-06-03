@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import defaultImage from './components/defaultIMG.png';
+import defaultImage from '../../components/defaultIMG.png';
 console.log(defaultImage);
 
 const Profile = ({ name, tag, location, avatar, followers, views, likes }) => (

@@ -1,5 +1,5 @@
 import React from 'react';
-import Profile from './Profile';
+import Profile from './components/profile/Profile';
 import { name, tag, location, avatar, stats } from './user.json';
 
 const App = () => {
