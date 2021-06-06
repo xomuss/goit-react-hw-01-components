@@ -1,0 +1,44 @@
+.profile {
+  width: 512px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.description {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.name {
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+}
+
+.tag {
+  text-align: center;
+}
+
+.location {
+  text-align: center;
+}
+
+.avatar {
+  display: block;
+  composes: description;
+  border-radius: 50%;
+  height: 195px;
+}
+
+.stats {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  border: solid 1px;
+}
+
+.label {
+  display: block;
+  width: 65px;
+  border-color: black;
+}
