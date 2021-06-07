@@ -1,8 +1,9 @@
 .profile {
-  width: 195px;
-
+  width: 295px;
+  background-color: aliceblue;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 5px 5px 5px #3c93d5;
 }
 
 .description {
@@ -39,14 +40,10 @@
   padding: 0;
 }
 
-.stats > li {
-  border: solid 1px;
-}
-
 .label {
   display: block;
-  width: 65px;
-  border-color: black;
+  width: 96px;
+  border-color: #3c93d5;
   text-align: center;
 }
 
