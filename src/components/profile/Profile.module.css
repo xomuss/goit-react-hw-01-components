@@ -1,5 +1,6 @@
 .profile {
-  width: 512px;
+  width: 195px;
+
   margin-left: auto;
   margin-right: auto;
 }
@@ -34,6 +35,11 @@
   display: flex;
   list-style: none;
   justify-content: center;
+
+  padding: 0;
+}
+
+.stats > li {
   border: solid 1px;
 }
 
@@ -41,4 +47,10 @@
   display: block;
   width: 65px;
   border-color: black;
+  text-align: center;
+}
+
+.quantity {
+  display: block;
+  text-align: center;
 }
